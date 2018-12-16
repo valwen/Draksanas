@@ -1,0 +1,255 @@
+fileFormatVersion: 2
+guid: c21b209641d16024ab199c527ca940b2
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Armature
+    100002: Armature.001
+    100004: Avant-bras-droit.001
+    100006: Avant-bras-gauche
+    100008: Biceps-droit
+    100010: Biceps-gauche
+    100012: Bone
+    100014: Bone.002_L.005
+    100016: Bone.002_L.005_end
+    100018: Bone.002_L.008
+    100020: Bone.002_L.008_end
+    100022: Bone.002_R.004
+    100024: Bone.002_R.005
+    100026: Bone.002_R.005_end
+    100028: Bone.002_R.008
+    100030: Bone.002_R.008_end
+    100032: Bone.005_L.003
+    100034: Bone.005_L.004
+    100036: Bone.005_L.004_end
+    100038: Bone.005_R.003
+    100040: Bone.005_R.004
+    100042: Bone.005_R.004_end
+    100044: Bone_end
+    100046: //RootNode
+    100048: Cou
+    100050: Cube.000
+    100052: Cube.001
+    100054: Jambe-droite
+    100056: Jambe-droite.001
+    100058: Jambe-droite.002
+    100060: Jambe-droite.002_end
+    100062: Jambe-droite.003
+    100064: Jambe-droite.004
+    100066: Jambe-droite.004_end
+    100068: Jambe-gauche
+    100070: Jambe-gauche.001
+    100072: Jambe-gauche.002
+    100074: Jambe-gauche.002_end
+    100076: Jambe-gauche.003
+    100078: Jambe-gauche.004
+    100080: Jambe-gauche.004_end
+    100082: Main-gauche
+    100084: Mollet-droit
+    100086: Mollet-gauche
+    100088: Poignet-droit
+    100090: Poignet-gauche
+    100092: pole-target-droit
+    100094: pole-target-droit_end
+    100096: pole-target-gauche
+    100098: pole-target-gauche_end
+    100100: Pouce-droit
+    100102: Pouce-gauche
+    100104: Principal
+    100106: Taille
+    100108: target-droit
+    100110: target-droit_end
+    100112: target-gauche
+    100114: target-gauche_end
+    100116: Torse
+    100118: "T\xEAte"
+    100120: "T\xEAte_end"
+    400000: Armature
+    400002: Armature.001
+    400004: Avant-bras-droit.001
+    400006: Avant-bras-gauche
+    400008: Biceps-droit
+    400010: Biceps-gauche
+    400012: Bone
+    400014: Bone.002_L.005
+    400016: Bone.002_L.005_end
+    400018: Bone.002_L.008
+    400020: Bone.002_L.008_end
+    400022: Bone.002_R.004
+    400024: Bone.002_R.005
+    400026: Bone.002_R.005_end
+    400028: Bone.002_R.008
+    400030: Bone.002_R.008_end
+    400032: Bone.005_L.003
+    400034: Bone.005_L.004
+    400036: Bone.005_L.004_end
+    400038: Bone.005_R.003
+    400040: Bone.005_R.004
+    400042: Bone.005_R.004_end
+    400044: Bone_end
+    400046: //RootNode
+    400048: Cou
+    400050: Cube.000
+    400052: Cube.001
+    400054: Jambe-droite
+    400056: Jambe-droite.001
+    400058: Jambe-droite.002
+    400060: Jambe-droite.002_end
+    400062: Jambe-droite.003
+    400064: Jambe-droite.004
+    400066: Jambe-droite.004_end
+    400068: Jambe-gauche
+    400070: Jambe-gauche.001
+    400072: Jambe-gauche.002
+    400074: Jambe-gauche.002_end
+    400076: Jambe-gauche.003
+    400078: Jambe-gauche.004
+    400080: Jambe-gauche.004_end
+    400082: Main-gauche
+    400084: Mollet-droit
+    400086: Mollet-gauche
+    400088: Poignet-droit
+    400090: Poignet-gauche
+    400092: pole-target-droit
+    400094: pole-target-droit_end
+    400096: pole-target-gauche
+    400098: pole-target-gauche_end
+    400100: Pouce-droit
+    400102: Pouce-gauche
+    400104: Principal
+    400106: Taille
+    400108: target-droit
+    400110: target-droit_end
+    400112: target-gauche
+    400114: target-gauche_end
+    400116: Torse
+    400118: "T\xEAte"
+    400120: "T\xEAte_end"
+    2100000: Material.003
+    2100002: Skin
+    2100004: Skin.003
+    2100006: Material.005
+    2100008: Material.004
+    2100010: Material.007
+    2100012: Material.024
+    2100014: Material.001
+    2100016: Hair.001
+    2100018: Material.002
+    2100020: Material.006
+    4300000: Cube.000
+    4300002: Cube.001
+    7400000: Draksanas_Magical_Start
+    9500000: //RootNode
+    13700000: Cube.000
+    13700002: Cube.001
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Draksanas_Magical_Start
+      takeName: Armature.001|Armature.001Action.001
+      firstFrame: 0
+      lastFrame: 71
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

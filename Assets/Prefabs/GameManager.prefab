@@ -1,0 +1,125 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1346169351160386}
+  m_IsPrefabAsset: 1
+--- !u!1 &1346169351160386
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4918877704592170}
+  - component: {fileID: 114738255229938842}
+  - component: {fileID: 114420367069925678}
+  - component: {fileID: 114777124753994302}
+  - component: {fileID: 114230847675834782}
+  - component: {fileID: 114767784379147180}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: GameManager
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4918877704592170
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1346169351160386}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.1154406, y: 1.2756782, z: 15.92}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114230847675834782
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1346169351160386}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0733c276a99c6b74f9f529c58be664a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  radius: 3
+  hasInteracted: 0
+  cam: {fileID: 0}
+  focus: {fileID: 0}
+--- !u!114 &114420367069925678
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1346169351160386}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9e4a1c46c7d53245b0d13e793a2020e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  items: []
+  space: 16
+  coins: 500
+--- !u!114 &114738255229938842
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1346169351160386}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 133dd4dc1130a884fb6e41214b179885, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  catObject: {fileID: 0}
+  birdObject: {fileID: 0}
+  summonOn: 1
+  summonCat: 0
+  summonBird: 0
+  player: {fileID: 0}
+  currentSummon: {fileID: 0}
+--- !u!114 &114767784379147180
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1346169351160386}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2aea3f3da89e9a441af7f579e3214052, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  UIitems: {fileID: 0}
+--- !u!114 &114777124753994302
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1346169351160386}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f947fc0cb5e7f74b8015e0467d45460, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  radius: 3
+  hasInteracted: 0
+  cam: {fileID: 0}
+  focus: {fileID: 0}
+  player: {fileID: 0}
+  range: 10
+  focusIndex: 0
+  listEnemies: []
