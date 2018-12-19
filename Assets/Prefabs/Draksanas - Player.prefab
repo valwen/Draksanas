@@ -4335,11 +4335,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 6
-  speedRun: 1
-  camera: {fileID: 0}
-  isJump: 0
-  jumpHeight: 40
-  isMove: 0
+  jumpSpeed: 8
+  gravity: 20
 --- !u!114 &114784714061939938
 MonoBehaviour:
   m_ObjectHideFlags: 1

@@ -32,7 +32,7 @@ public class AnimalsBehaviour : MonoBehaviour
     // Use this for initialization
     void Start()
     {
-        FindChildrenWithTag(transform.parent, "WayPoint");
+        //FindChildrenWithTag(transform.parent, "WayPoint");
         state = GuardStates.Stopped;
 
         agent = GetComponent<NavMeshAgent>();
@@ -41,17 +41,17 @@ public class AnimalsBehaviour : MonoBehaviour
 
     }
 
-    private void FindChildrenWithTag(Transform parent, string tagName)
-    {
-        foreach (Transform child in parent)
-        {
-            if (child.tag == tagName)
-            {
-                allPoints.Add(child);
-            }
-            FindChildrenWithTag(child, tagName);
-        }
-    }
+    //private void FindChildrenWithTag(Transform parent, string tagName)
+    //{
+    //    foreach (Transform child in parent)
+    //    {
+    //        if (child.tag == tagName)
+    //        {
+    //            allPoints.Add(child);
+    //        }
+    //        FindChildrenWithTag(child, tagName);
+    //    }
+    //}
 
     // Update is called once per frame
     void Update()

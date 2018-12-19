@@ -14,10 +14,11 @@ public class Shopping : MonoBehaviour {
     public int coins;
 
 
-    private void Start()
+   void Start()
     {
         gameManager = GameObject.FindGameObjectWithTag("GameManager");
         inventory = gameManager.GetComponent<Inventory>();
+        print(inventory);
         coins = inventory.coins;
 
     }
