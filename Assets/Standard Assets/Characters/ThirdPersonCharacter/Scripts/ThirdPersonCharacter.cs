@@ -64,7 +64,6 @@ namespace UnityStandardAssets.Characters.ThirdPerson
 			// control and velocity handling is different when grounded and airborne:
 			if (m_IsGrounded)
 			{
-                print("move: " + move.ToString());
                 HandleGroundedMovement(crouch, jump);
 			}
 			else
